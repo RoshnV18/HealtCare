@@ -25,21 +25,6 @@ const Hero = () => {
               Explore Features
             </button>
           </div>
-
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600 mb-8">
-            <div className="flex items-center gap-2">
-              <Shield size={16} className="text-green-500" />
-              <span>HIPAA Ready</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock size={16} className="text-green-500" />
-              <span>99.99% Uptime</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Users size={16} className="text-green-500" />
-              <span>Secure Infrastructure</span>
-            </div>
-          </div>
         </div>
 
         <div className="max-w-4xl mx-auto">
@@ -99,24 +84,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="text-center mt-16">
-          <p className="text-sm text-gray-500 mb-4">
-            Trusted by 20+ hospitals & clinics
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            {["Apollo", "Max", "Fortis", "AIIMS", "Medanta", "BLK"].map(
-              (hospital, index) => (
-                <div
-                  key={index}
-                  className="text-gray-400 font-medium text-sm px-3 py-1"
-                >
-                  {hospital}
-                </div>
-              )
-            )}
           </div>
         </div>
 
